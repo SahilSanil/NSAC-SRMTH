@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+model-viewer {
+  width: 50%;
+  height: 800px;
+  margin: 0 auto;
+}
+.models {
+  display: flex;
+  width: 100vw;
+}
+.lead {
+  font-size: 3rem;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+.logo {
+  height: 200px;
+  padding: 2rem;
+}

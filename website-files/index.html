@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRMTH</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <img src="assets/srmth.jpeg" alt="" class="logo" />
+      <h1 class="lead">SRMTH</h1>
+    </nav>
+    <div class="models">
+      <model-viewer
+        src="assets/Knife Tool v1.glb"
+        camera-controls
+        auto-rotate
+      ></model-viewer>
+      <model-viewer
+        src="assets/Fine Dust Sample Collector v1 (1).glb"
+        camera-controls
+        auto-rotate
+        max-field-of-view="180"
+      ></model-viewer>
+    </div>
+  </body>
+</html>
