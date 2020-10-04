@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SRMTH</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <script
       type="module"
@@ -15,18 +19,84 @@
       <img src="assets/srmth.jpeg" alt="" class="logo" />
       <h1 class="lead">SRMTH</h1>
     </nav>
+    <h1 class="lead">Check out our 3D Models!</h1>
     <div class="models">
-      <model-viewer
-        src="assets/Knife Tool v1.glb"
-        camera-controls
-        auto-rotate
-      ></model-viewer>
-      <model-viewer
-        src="assets/Fine Dust Sample Collector v1 (1).glb"
-        camera-controls
-        auto-rotate
-        max-field-of-view="180"
-      ></model-viewer>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Knife Tool v1.glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Knife Tool</h1>
+          <p class="primary-text">This is a Knife tool.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Brush Tool v1.glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Brush Tool</h1>
+          <p class="primary-text">This is a Brush tool.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Fine Dust Sample Collector v1 (1).glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Dust Segregator</h1>
+          <p class="primary-text">This is a Dust Segragator tool.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Rock Impact Tool 1v.glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Rock Impact Tool</h1>
+          <p class="primary-text">This is a Rock Impact tool.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Motor Actuated Mallet Finalv.glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Motor Actuated Mallet</h1>
+          <p class="primary-text">This is a Motor Actuated Mallet.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Rock Grinding Tool Finalv.glb"
+          camera-controls
+          auto-rotate
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Rock Grinding Tool</h1>
+          <p class="primary-text">This is a Rock Grinding tool.</p>
+        </div>
+      </div>
+      <div class="model-group">
+        <model-viewer
+          src="assets/Main Manipulator Structure with Knife Tool (1).glb"
+          camera-controls
+        ></model-viewer>
+        <div class="description">
+          <h1 class="lead">Main Manipulator</h1>
+          <p class="primary-text">This is the Main Manipulator</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
