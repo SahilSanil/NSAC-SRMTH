@@ -2,21 +2,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 html {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
 }
+body {
+  background: rgba(0, 0, 0, 0.81);
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+.lead {
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.primary-text {
+  font-size: 1.8rem;
+  margin: 3rem 0;
+}
 model-viewer {
   width: 50%;
   height: 800px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .models {
   display: flex;
+  flex-direction: column;
   width: 100vw;
+}
+.model-group {
+  display: flex;
+}
+.description {
+  width: 40%;
+  height: 800px;
+  margin: 2rem auto;
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 3rem;
+  color: #000;
 }
 .lead {
   font-size: 3rem;
@@ -27,6 +53,7 @@ model-viewer {
   align-items: center;
   background-color: #000000;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 .logo {
   height: 200px;
